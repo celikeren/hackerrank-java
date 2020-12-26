@@ -1,2 +1,3 @@
 # hackerrank-java
-HackerRank Solutions with Java
+
+- I upload solutions here as I solve questions with Java on HackerRank
