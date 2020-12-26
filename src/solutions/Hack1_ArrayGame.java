@@ -2,15 +2,31 @@ package solutions;
 
 import java.util.Scanner;
 
-public class Hack1 {
+public class Hack1_ArrayGame {
 
 	public static void main(String[] args) {
 		hack1();
 	}
 
 	private static void hack1() {
+		
 		/*
-		 * Java 1D Array (Part 2)
+		-----------Sample Input:-----------
+		4				// How many games?
+		5 3				// Array Size / Leap
+		0 0 0 0 0		// Array
+		6 5				// Array Size / Leap
+		0 0 0 1 1 1		// Array
+		6 3
+		0 0 1 1 1 0
+		3 1
+		0 1 0
+		
+		----------Sample Output:---------
+		YES
+		YES
+		NO
+		NO
 		 */
 
 		Scanner scan = new Scanner(System.in);
